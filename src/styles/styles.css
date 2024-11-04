@@ -1,0 +1,171 @@
+body {
+    background-color: #e1ebed;
+
+    font-family: 'Roboto', sans-serif !important;
+}
+/* <============ HEADER ============> */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    background-color: #8121d0;
+    color: #ffffff;
+    border-bottom: solid 5px #291c3a;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header .nav {
+    list-style: none;
+    display: flex;
+}
+
+.header .nav > li {
+    margin:  0 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.header .nav > li > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* <============ HERO ============> */
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    background-color: #331c52;
+    border-bottom: solid 5px #291c3a;
+
+}
+
+.hero-text {
+    width: 100%;
+    padding-left: 5rem;
+}
+
+.hero-text .hello {
+    font-weight: bold;
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-text .titulo {
+    font-weight: bold;
+    color: #8121d0;
+    font-size: 5rem;
+    margin: 16px 0 16px 0;
+    padding: 0;
+}
+
+.hero-text .subtitulo {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image-container {
+    display: flex;
+    width: 100%;
+}
+
+.hero-image {
+    width: 70%
+}
+
+/* <============ ABOUT ============> */
+.seccion-container {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.about-seccion-container .title {
+    margin-bottom: 0;
+}
+
+.about-seccion-container .description {
+    margin-bottom: 0;
+    font-size: 1rem;
+    
+}
+
+/* <============ SKILLS ============> */
+.skill {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+}
+
+.skill .text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 5rem;
+}
+
+.skill-icon {
+    width: 20%;
+}
+
+/* <============ CONTACT ============> */
+#contact {
+    background-color: #dccfed;
+    margin: auto 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    padding: 1rem;
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-container .input-field {
+    width: 100%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    resize: none;
+}
+
+.contact-form-container button {
+    background-color: #331c52;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* <============ FOOTER ============> */
+.footer-container {
+    height: 250px;
+    background-color: #331c52;
+    color: #fff;
+}
