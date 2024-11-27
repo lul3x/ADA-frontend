@@ -68,6 +68,10 @@
     height: auto;
 }
 
+.hero-content {
+    flex-direction: row;
+}
+
 @media only screen and (max-width: 768px) {
     .hero-container {
         flex-direction: column-reverse;
@@ -75,6 +79,9 @@
         height: auto;
     }
 
+    .hero-content{
+        flex-direction: column;
+    }
     .hero-image {
         max-width: 50%;
     }
@@ -82,5 +89,8 @@
     .hero-text {
         justify-content: center;
         align-items: center;
+    }
+    .hero-container .hero-text .name {
+        text-align: center;
     }
 }

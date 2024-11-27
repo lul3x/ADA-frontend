@@ -8,6 +8,10 @@
     padding: 130px 40px 130px;
 }
 
+.contact-container .contact-contetent {
+    flex-direction: column;
+}
+
 .contact {
     background-color: var(--white);
     display: flex;
@@ -91,4 +95,27 @@
     border-radius: 100px;
     font-weight: bold;
     margin-right: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .input-row {
+        flex-direction: column;
+    }
+    .contact-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .form-control {
+        margin: 16px;  
+    }
+    .contact .contact-column {
+        padding: 0
+    }
+    .action-container .contact-btn {
+        margin-bottom: 16px;
+    }
 }
