@@ -1,0 +1,45 @@
+/**********************************************
+ PROJECTS SECTION
+***********************************************/
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% / 3 - (1.5em * 3));
+    margin: 0.75em;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.project:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.project-thumb {
+    width: 100%;
+    display: block;
+}
+
+.project-name {
+    font-weight: 600;
+    margin-top: 20px;
+    color: var(--dark)
+}

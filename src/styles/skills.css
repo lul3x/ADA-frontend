@@ -1,0 +1,27 @@
+/**********************************************
+ SKILLS SECTION
+***********************************************/
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 40px 130px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-item .icon {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .skill-item {
+        display: flex;
+        flex-direction: row;
+    }
+}
